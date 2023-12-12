@@ -1,0 +1,1 @@
+python train.py --epochs 300 --workers 8 --device 0,1 --batch-size 16 --data data/harness.yaml --img 640 640 --cfg cfg/training/yolov7-harness.yaml --weights "yolov7.pt" --name 6classes --hyp data/hyp.scratch.custom.yaml --multi-scale
